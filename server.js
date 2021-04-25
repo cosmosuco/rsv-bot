@@ -33,7 +33,7 @@ http.createServer(function(req, res){
 }).listen(3000);
 
 client.on('ready', message =>{
-  console.log('Bot準備完了～');
+  console.log('準備できたわよ！');
 });
 
 client.on('message', message =>{
@@ -98,7 +98,7 @@ function sendMsg(channelId, text, option={}){
 }
 
 function sendList(rsvData, message) {
-  var listText = "予約状況:\n";
+  var listText = "次はコイツらがぶっ殺しにいくわよ！:\n";
   rsvData.forEach((lapData, lapIndex) => {
     if (lapData != null && lapData.length !== 0) {
       console.log(lapData);
