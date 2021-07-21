@@ -120,9 +120,13 @@ function sendList(rsvData, message) {
  if (command === "!bosslist") {
     if (isNaN(lap)) {
       
+ function sendList(rsvData, message) {     
       
+  |      boss1      |      boss2      |      boss3      |
+  |     :---:       |     :---:       |      :---:      |
+  | git status      | git status      | gi t status     |
+
+  |      boss4      |      boss5      |
+  |      :---:      |      :---:      | 
+  | git diff        | g it diff       |
       
-  |              |                | Right-aligned |               |                |
-  |     :---:    |     :---:      |     :---:     |     :---:     |     :---:      |
-  | git status   | git status     | git status    | git status    | git status     |
-  | git diff     | git diff       | git diff      | git diff      | git diff       |
