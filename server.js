@@ -116,3 +116,13 @@ function sendList(rsvData, message) {
   });
   sendMsg(message.channel.id, listText);
 }
+
+ if (command === "!bosslist") {
+    if (isNaN(lap)) {
+      
+      
+      
+  |              |                | Right-aligned |               |                |
+  |     :---:    |     :---:      |     :---:     |     :---:     |     :---:      |
+  | git status   | git status     | git status    | git status    | git status     |
+  | git diff     | git diff       | git diff      | git diff      | git diff       |
