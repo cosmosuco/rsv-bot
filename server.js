@@ -3,8 +3,7 @@ const querystring = require('querystring');
 const discord = require('discord.js');
 const client = new discord.Client();
 const fs = require('fs');
-var BOSS = ["1:ワイバーン", "2:ランドスロース", "3:オークチーフ", "4:スピリットホーン", "5:ツインピッグス"];
-
+var BOSS = ["1:ゴブリングレート", "2:ライライ", "3:メガラバーン", "4:ウールヴヘジン", "5:レサトパルト"];
 http.createServer(function(req, res){
   if (req.method == 'POST'){
     var data = "";
@@ -116,17 +115,3 @@ function sendList(rsvData, message) {
   });
   sendMsg(message.channel.id, listText);
 }
-
- if (command === "!bosslist") {
-    if (isNaN(lap)) {
-      
- function sendList(rsvData, message) {     
-      
-  |      boss1      |      boss2      |      boss3      |
-  |     :---:       |     :---:       |      :---:      |
-  | git status      | git status      | gi t status     |
-
-  |      boss4      |      boss5      |
-  |      :---:      |      :---:      | 
-  | git diff        | g it diff       |
-      
